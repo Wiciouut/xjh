@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper    
+   PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"    
+   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+	
+	<mapper namespace="wjh.blog.mapper.BlogMapper">
+		<select id="getTypes" resultType="BlogType">
+			select blog_type_id,type_name from blog_type order by
+			 type_weight desc
+		</select>
+	</mapper>
+	
+	
+	
+	
+	
+	

@@ -1,0 +1,30 @@
+@CHARSET "UTF-8";
+
+
+.common-p{
+	margin-top:5px;
+	text-indent: 2em;
+}
+
+.common-span{
+	
+	display: inline-block;
+	margin-right: 10px;
+	
+}
+
+.common-title{
+	
+	font-size: 1.4em;
+}
+
+.common-textarea {
+	resize:none;
+}
+
+.nav-user{
+	
+	padding-left: 20px;
+	
+}
+
