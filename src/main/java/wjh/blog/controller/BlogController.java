@@ -32,7 +32,6 @@ public class BlogController {
 		
 		model.addAttribute("typeId", typeId);
 		
-		
 		return "list";
 	}
 	

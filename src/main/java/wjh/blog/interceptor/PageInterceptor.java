@@ -27,7 +27,7 @@ public class PageInterceptor implements HandlerInterceptor {
 	public boolean preHandle(HttpServletRequest req, HttpServletResponse res,
 			Object o) throws Exception {
 		
-		return true;
+		return false;
 	}
 
 }
